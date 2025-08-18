@@ -1,0 +1,25 @@
+.header {
+  position: fixed;
+  padding: 20px 40px;
+  background-color: #fff;
+  display: grid;
+  z-index: 100;
+  grid-template-columns: 1fr;
+
+  &__nav {
+    display: flex;
+    gap: 30px;
+    position: fixed;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-text-dark;
+    font-weight: 500;
+    font-size: 16px;
+
+    &.is-active {
+      border-bottom: 2px solid $color-text-dark;
+    }
+  }
+}

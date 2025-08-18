@@ -1,0 +1,55 @@
+.card {
+  max-width: 200px;
+  width: $card-width;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__image {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  &__code {
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 10px;
+  }
+
+  &__price {
+    font-size: 12px;
+    margin: 10px 0;
+  }
+
+  &__amount {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  &__buy {
+    display: inline-block;
+    text-align: center;
+    background-color: #00aef0;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 100%;
+    font-weight: bold;
+
+    &:hover {
+      background-color: darken(#00aef0, 10%);
+    }
+  }
+}
