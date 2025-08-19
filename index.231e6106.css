@@ -1,0 +1,2 @@
+body{box-sizing:border-box;justify-content:center;margin:0;padding:0;font-family:Roboto,sans-serif}*{box-sizing:border-box;margin:0;padding:0}.main{padding-top:0}.main__container{grid-template-columns:repeat(auto-fit,200px);justify-content:center;gap:46px 48px;padding:50px 40px;display:grid}@media (width>=488px){.main__container{grid-template-columns:repeat(2,1fr)}}@media (width>=768px){.main__container{grid-template-columns:repeat(3,1fr)}}@media (width>=1024px){.main__container{grid-template-columns:repeat(4,1fr)}}
+/*# sourceMappingURL=index.231e6106.css.map */
