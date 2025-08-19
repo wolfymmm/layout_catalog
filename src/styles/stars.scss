@@ -1,4 +1,4 @@
-@import './variables';
+@use 'variables';
 
 .stars {
   display: flex;
@@ -26,7 +26,7 @@
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
-    color: $color-text-dark;
+    color: variables.$color-text-dark;
   }
 }
 

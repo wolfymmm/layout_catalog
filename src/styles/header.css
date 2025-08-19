@@ -32,7 +32,7 @@
 
 .header .nav__link {
   text-decoration: none;
-  color: #000;
+  color: #060b35;
   display: block;
   height: 60px;
   line-height: 60px;
@@ -66,4 +66,4 @@
 
 .header .nav__link[data-qa='nav-hover']:hover {
   color: #00acdc;
-} /*# sourceMappingURL=header.css.map */
+}
